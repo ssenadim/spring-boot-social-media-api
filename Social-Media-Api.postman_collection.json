@@ -11,12 +11,37 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:1902/users",
+					"raw": "http://localhost:1903/users",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "1902",
+					"port": "1903",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "All Users XML",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:1903/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1903",
 					"path": [
 						"users"
 					]
@@ -30,15 +55,41 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:1902/users/12",
+					"raw": "http://localhost:1903/users/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "1902",
+					"port": "1903",
 					"path": [
 						"users",
-						"12"
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Welcome For User Id",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "nl",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:1903/welcome/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1903",
+					"path": [
+						"welcome",
+						"1"
 					]
 				}
 			},
@@ -59,12 +110,12 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:1902/users",
+					"raw": "http://localhost:1903/users",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "1902",
+					"port": "1903",
 					"path": [
 						"users"
 					]
@@ -78,12 +129,12 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:1902/users/1",
+					"raw": "http://localhost:1903/users/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "1902",
+					"port": "1903",
 					"path": [
 						"users",
 						"1"
