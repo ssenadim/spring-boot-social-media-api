@@ -60,6 +60,8 @@ Recommendations
 -Think about versioning even before you need it!
 -One Enterprise - One Versioning Approach
 
+---
+
 # Readme Note 4
 HATEOAS (Hypermedia as the Engine of Application State)
     
@@ -83,3 +85,21 @@ HATEOAS (Hypermedia as the Engine of Application State)
             }
         }
     }
+
+---
+
+# Readme Note 5
+Customizing REST API Responses - Filtering and more...
+
+Serialization: Most popular JSOn Serialization in Java -> Jackson
+
+1. Customize field names in response
+   `@JsonProperty("user_name")`
+
+2. Return only selected fields
+Filtering-> Filter out Passwords
+Two types
+Static Filtering: Same filtering for a ben across different REST API
+    `@JsonIgnoreProperties, @JsonIgnore`
+Dynamic Filtering: Customize filtering for a bean for specific REST API
+    `@JsonFilter with FilterProvider @JsonFilter("SomeBeanFilter")`
