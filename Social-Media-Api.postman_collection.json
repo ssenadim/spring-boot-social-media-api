@@ -394,6 +394,41 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Actuator",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:1903/actuator",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1903",
+					"path": [
+						"actuator"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "HAL Browser",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:1903",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1903"
+				}
+			},
+			"response": []
 		}
 	]
 }

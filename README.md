@@ -103,3 +103,28 @@ Static Filtering: Same filtering for a ben across different REST API
     `@JsonIgnoreProperties, @JsonIgnore`
 Dynamic Filtering: Customize filtering for a bean for specific REST API
     `@JsonFilter with FilterProvider @JsonFilter("SomeBeanFilter")`
+
+
+---
+
+# Readme Note 6
+Monitoring APIs with Spring Boot Actuator
+Exploring APIs with Spring Boot HAL Explorer
+
+Actuator and HAL Browser Pom XML
+
+        <dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-rest-hal-explorer</artifactId>
+		</dependency>
+
+/src/main/resources/application.properties Modified
+For actuator
+management.endpoints.web.exposure.include=*
+
+
