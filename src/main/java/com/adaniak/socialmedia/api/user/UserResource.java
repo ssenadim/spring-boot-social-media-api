@@ -2,12 +2,14 @@ package com.adaniak.socialmedia.api.user;
 
 import com.adaniak.socialmedia.api.exception.UserNotFoundException;
 import jakarta.validation.Valid;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
 import org.springframework.context.i18n.LocaleContextHolder;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
+import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.*;
+import org.springframework.hateoas.EntityModel;
+import org.springframework.hateoas.server.mvc.WebMvcLinkBuilder;
 
 import java.net.URI;
 import java.util.List;
@@ -44,7 +46,18 @@ public class UserResource {
             throw new UserNotFoundException("id:" + id);
         return user;
     }
+    @GetMapping("/usersWithHateoas/{id}")
+    public EntityModel<User> retrieveUserWithHateoas(@PathVariable int id) {
+        User user = service.findById(id);
+        if (user == null)
+            throw new UserNotFoundException("id:" + id);
+        EntityModel<User> entityModel = EntityModel.of(user);
 
+        WebMvcLinkBuilder link =  linkTo(methodOn(this.getClass()).retrieveAllUsers());
+        entityModel.add(link.withRel("all-users"));
+
+        return entityModel;
+    }
     @PostMapping("/users")
     public ResponseEntity<User> createUser(@Valid @RequestBody User user) {
         User savedUser = service.save(user);
