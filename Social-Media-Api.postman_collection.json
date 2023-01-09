@@ -25,6 +25,26 @@
 			"response": []
 		},
 		{
+			"name": "All Users by JPA",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:1903/jpa/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1903",
+					"path": [
+						"jpa",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "All Users XML",
 			"request": {
 				"method": "GET",
@@ -338,7 +358,50 @@
 			"response": []
 		},
 		{
-			"name": "Find By User Id with HATEOAS",
+			"name": "Find By User Id with HATEOAS by JPA",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:1903/jpa/usersWithHateoas/100001",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1903",
+					"path": [
+						"jpa",
+						"usersWithHateoas",
+						"100001"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Find By User Id Posts by JPA",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:1903/jpa/users/100002/posts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1903",
+					"path": [
+						"jpa",
+						"users",
+						"100002",
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Find By User Id with HATEOAS Copy",
 			"request": {
 				"method": "GET",
 				"header": [],
