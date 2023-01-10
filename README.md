@@ -170,3 +170,18 @@ spring.jpa.hibernate.ddl-auto=update
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
 
 ---
+
+# Readme Note 8
+Implementing basic Authentication with Spring Security
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+
+/src/main/resources/application.properties Modified
+
+spring.security.user.name=username
+spring.security.user.password=password
+
+

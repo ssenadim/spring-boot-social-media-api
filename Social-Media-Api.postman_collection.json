@@ -8,6 +8,21 @@
 		{
 			"name": "All Users",
 			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "eagle1903",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "bjk1903",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
 				"header": [],
 				"url": {
@@ -27,6 +42,21 @@
 		{
 			"name": "All Users by JPA",
 			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "eagle1903",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "bjk1903",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
 				"header": [],
 				"url": {
@@ -47,6 +77,21 @@
 		{
 			"name": "All Users XML",
 			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "eagle1903",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "bjk1903",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
 				"header": [
 					{
@@ -72,6 +117,21 @@
 		{
 			"name": "Find By User Id",
 			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "eagle1903",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "bjk1903",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
 				"header": [],
 				"url": {
@@ -118,6 +178,21 @@
 		{
 			"name": "Save New User",
 			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "eagle1903",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "bjk1903",
+							"type": "string"
+						}
+					]
+				},
 				"method": "POST",
 				"header": [],
 				"body": {
@@ -146,6 +221,21 @@
 		{
 			"name": "Delete By User Id",
 			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "eagle1903",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "bjk1903",
+							"type": "string"
+						}
+					]
+				},
 				"method": "DELETE",
 				"header": [],
 				"url": {
@@ -166,6 +256,21 @@
 		{
 			"name": "VersionV1",
 			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "eagle1903",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "bjk1903",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
 				"header": [],
 				"url": {
@@ -186,6 +291,21 @@
 		{
 			"name": "VersionV2",
 			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "eagle1903",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "bjk1903",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
 				"header": [],
 				"url": {
@@ -206,6 +326,21 @@
 		{
 			"name": "VersionV1 request parameter",
 			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "eagle1903",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "bjk1903",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
 				"header": [],
 				"url": {
@@ -231,6 +366,21 @@
 		{
 			"name": "VersionV2 request parameter",
 			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "eagle1903",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "bjk1903",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
 				"header": [],
 				"url": {
@@ -256,6 +406,21 @@
 		{
 			"name": "VersionV1 Custom Header",
 			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "eagle1903",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "bjk1903",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
 				"header": [
 					{
@@ -282,6 +447,21 @@
 		{
 			"name": "VersionV2 Custom Header",
 			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "eagle1903",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "bjk1903",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
 				"header": [
 					{
@@ -308,6 +488,21 @@
 		{
 			"name": "VersionV1 Accept Header",
 			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "eagle1903",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "bjk1903",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
 				"header": [
 					{
@@ -334,6 +529,21 @@
 		{
 			"name": "VersionV2 Accept Header",
 			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "eagle1903",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "bjk1903",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
 				"header": [
 					{
@@ -360,6 +570,21 @@
 		{
 			"name": "Find By User Id with HATEOAS by JPA",
 			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "eagle1903",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "bjk1903",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
 				"header": [],
 				"url": {
@@ -381,6 +606,21 @@
 		{
 			"name": "Find By User Id Posts by JPA",
 			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "eagle1903",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "bjk1903",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
 				"header": [],
 				"url": {
@@ -403,6 +643,21 @@
 		{
 			"name": "Find By User Id with HATEOAS Copy",
 			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "eagle1903",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "bjk1903",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
 				"header": [],
 				"url": {
@@ -442,6 +697,21 @@
 		{
 			"name": "Filtering List",
 			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "eagle1903",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "bjk1903",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
 				"header": [],
 				"url": {
@@ -461,6 +731,21 @@
 		{
 			"name": "Actuator",
 			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "eagle1903",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "bjk1903",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
 				"header": [],
 				"url": {
@@ -480,6 +765,21 @@
 		{
 			"name": "HAL Browser",
 			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "eagle1903",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "bjk1903",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
 				"header": [],
 				"url": {
